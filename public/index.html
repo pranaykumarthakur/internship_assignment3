@@ -3,28 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
     <meta name="theme-color" content="#dc2626" />
-    <meta
-      name="description"
-      content="Dynamic Content Builder - A modular, drag-and-drop page designer built with React."
-    />
+    <meta name="description" content="Dynamic Content Builder - A modular, drag-and-drop page designer built with React." />
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 
+    <script src="https://cdn.tailwindcss.com"></script>
+    
     <title>DESIGNER.io | Content Builder</title>
 
     <style>
-      /* Pre-loader CSS: 
-        This displays a pulsing loading text while the React code is downloading. 
-        Recruiters look for this level of UX polish.
-      */
       body {
         margin: 0;
         font-family: 'Inter', -apple-system, sans-serif;
-        background-color: #f9fafb; /* Matches your Tailwind bg-gray-50 */
+        background-color: #f9fafb;
       }
       
       #root:empty {
@@ -40,7 +34,7 @@
         font-weight: 700;
         letter-spacing: 2px;
         text-transform: uppercase;
-        color: #dc2626; /* Tailwind red-600 */
+        color: #dc2626;
         font-size: 14px;
         animation: pulse 1.5s infinite ease-in-out;
       }
@@ -59,6 +53,5 @@
     </noscript>
     
     <div id="root"></div>
-    
   </body>
 </html>
